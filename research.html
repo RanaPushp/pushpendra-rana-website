@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research - Pushpendra Rana</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-brand">Pushpendra Rana</a>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" class="active">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="teaching.html">Teaching &amp; Service</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1>Research</h1>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main-content">
+
+    <section class="section">
+      <p>My research lies at the intersection of Responsible AI, sociotechnical system design, and causal evaluation, with a focus on how AI systems are measured, interpreted, contested, and governed in real-world contexts. I aim to design and evaluate sociotechnical and agentic AI systems that remain robust under uncertainty, resistant to perverse incentives, and aligned with human values and governance constraints.</p>
+    </section>
+
+    <!-- Research Pillar 1 -->
+    <section class="section">
+      <h2>Responsible AI</h2>
+
+      <div class="research-area">
+        <p>My research identifies a key Responsible AI risk: ML-based studies can mistake randomness for causal structure in complex systems. Using causal machine learning methods &mdash; including DAGs, double machine learning, and interpretable ML &mdash; I have found that uncertainty in such estimations often exceeds the estimated effects, framing this not purely as a technical challenge but as a Responsible AI design challenge.</p>
+        <p>I am developing a general framework that computes feasibility bounds and risk envelopes before deploying any predictive or optimization model in real-world contexts, engineering AI systems to reflect uncertainty, avoid false precision, and preserve contestability &mdash; especially when outputs inform policy, finance, or resource allocation.</p>
+        <p>As a practical testbed, I co-founded <a href="https://www.wheretoplant.app/" target="_blank">WhereToPlant</a>, an AI-driven tool that recommends tree species for planting in the Himalayas while reflecting uncertainty and fairness, and partnered with <a href="https://humane-intelligence.org/programs-services/bias-bounty/challenge-set-3/" target="_blank">Humane Intelligence</a> on a Bias Bounty challenge addressing transparency in AI-driven environmental decision-making.</p>
+        <div class="research-keywords">
+          <span class="keyword">Causal ML</span>
+          <span class="keyword">Uncertainty Quantification</span>
+          <span class="keyword">Feasibility Analysis</span>
+          <span class="keyword">Algorithmic Auditing</span>
+          <span class="keyword">Fairness</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Pillar 2 -->
+    <section class="section">
+      <h2>Sociotechnical AI Design &amp; Human&ndash;AI Interaction</h2>
+
+      <div class="research-area">
+        <p>My research frames ML as institutionally embedded decision support, requiring interpretability aligned with real human workflows. I explicitly integrate governance structures, incentives, and professional judgement into system design, revealing a persistent design mismatch between what institutions demand (project-level causality) and what AI/ML methods can estimate (averages) due to violations of causal assumptions in complex systems.</p>
+        <p>I am building a practical science for AI governance &mdash; interfaces and protocols that enable communities, frontline staff, and affected groups to contest AI outputs and improve the system. This work emphasizes trust, automation bias, override behavior, and the conditions under which human correction improves or degrades system performance.</p>
+        <p>Outputs include contestability toolkits, generalizable frameworks for human-in-the-loop AI, and demonstration systems such as AI-assisted climate adaptation planning that integrate model outputs, institutional constraints, and human feedback into operational workflows.</p>
+        <div class="research-keywords">
+          <span class="keyword">HCI</span>
+          <span class="keyword">Governance</span>
+          <span class="keyword">Interpretable ML</span>
+          <span class="keyword">Contestability</span>
+          <span class="keyword">Human-in-the-Loop</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Pillar 3 -->
+    <section class="section">
+      <h2>Causal Evaluation of AI Systems</h2>
+
+      <div class="research-area">
+        <p>Using Randomized Control Trials &mdash; the apex of causal inference &mdash; I causally isolate the effects of AI recommendations, disentangling them from institutional confounders and ecological heterogeneity. In an ongoing large-scale cluster RCT on forest restoration in the Indian Himalayas, I evaluate whether an AI-based decision-support system enables foresters and women's groups to iteratively improve outcomes through human-AI collaboration.</p>
+        <p>I am developing reusable evaluation protocols &mdash; open guidelines for field trials, reproducible causal estimators, domain-agnostic metrics, and benchmark datasets &mdash; for AI systems operating under real-world constraints across health, education, labor, and public services.</p>
+        <div class="research-keywords">
+          <span class="keyword">RCTs</span>
+          <span class="keyword">Causal Inference</span>
+          <span class="keyword">Field Experiments</span>
+          <span class="keyword">Evaluation Frameworks</span>
+          <span class="keyword">Benchmarking</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research Pillar 4 -->
+    <section class="section">
+      <h2>Emerging Research Directions</h2>
+
+      <div class="research-area">
+        <p>I am formalizing transferable resilience principles from forestry &mdash; redundancy, diversity, modularity, and feedback regulation &mdash; as design hypotheses for resilient multi-agent AI systems, testing them through controlled experimentation and simulation with a focus on robustness under distribution shift and recovery after agent failures.</p>
+        <p>I am also exploring whether scaling laws that govern ecological systems similarly organize sociotechnical and agentic AI systems, using symbolic regression and mechanistic ML to identify relationships that predict reliability, coordination cost, and failure probability as system complexity increases.</p>
+        <p>Additionally, I am examining how AI-driven acceleration alters conditions of reliability, explainability, and contestability in science &mdash; framing AI not merely as a technical tool but as an institutional actor that reshapes scientific norms, incentives, and evaluation standards.</p>
+        <div class="research-keywords">
+          <span class="keyword">Multi-Agent Systems</span>
+          <span class="keyword">Resilience</span>
+          <span class="keyword">Scaling Laws</span>
+          <span class="keyword">Symbolic Regression</span>
+          <span class="keyword">AI Governance</span>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <span>&copy; 2026 Pushpendra Rana</span>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="teaching.html">Teaching &amp; Service</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
